@@ -12,6 +12,7 @@ public class Main {
             // Ctrl+D을(를) 눌러 코드 디버그를 시작합니다. 중단점을 하나 설정해 드렸습니다.
             // 중단점을 더 추가하려면 언제든지 Cmd+F8을(를) 누르세요.
             System.out.println("i = " + i);
+            System.out.println("i = " + i);
         }
     }
 }
