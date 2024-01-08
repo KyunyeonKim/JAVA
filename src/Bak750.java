@@ -1,4 +1,5 @@
 public class Bak750 {
+
     public static void main(String[]args){
         int N = 100000;
         int cnt = 0;
