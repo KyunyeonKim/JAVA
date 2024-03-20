@@ -1,3 +1,5 @@
+package Java;
+
 public class Java3 {
     public static void main(String [] args){
         String str_a1="슉-";

@@ -1,3 +1,5 @@
+package Java;
+
 public class Java2 {
     public static void main(String [] args){
         String str1 = "아아 슬슬 오함마 준비해야 쓰것다";
