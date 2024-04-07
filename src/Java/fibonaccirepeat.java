@@ -26,4 +26,5 @@ public class fibonaccirepeat {
     public static void main(String[] args) {
         System.out.println("피보나치 수열의 10번째 원소는" + fibonacci(10)+ "입니다");
     }
+    int a;
 }
