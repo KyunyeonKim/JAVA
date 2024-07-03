@@ -13,7 +13,7 @@ public class Mission4_for2 {
             }
             System.out.println(); // 각 줄의 끝에 줄 바꿈을 추가
         }
-
+        int i = 0;
 
 
 
