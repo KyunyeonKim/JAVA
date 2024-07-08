@@ -1,3 +1,5 @@
+package multi.bak;
+
 import java.util.Scanner; // Scanner 클래스를 임포트하여 사용자 입력을 받을 수 있게 함
 import java.util.Stack; // Stack 클래스를 임포트하여 스택을 사용할 수 있게 함
 

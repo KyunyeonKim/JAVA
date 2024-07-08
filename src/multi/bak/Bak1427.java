@@ -1,3 +1,5 @@
+package multi.bak;
+
 import java.util.Scanner;
 
 public class Bak1427 {

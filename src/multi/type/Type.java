@@ -1,8 +1,5 @@
 package multi.type;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-
 public class Type {
     public static void main(String[] args) {
         //1.기본 타입(8개)

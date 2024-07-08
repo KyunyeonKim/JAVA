@@ -1,8 +1,6 @@
 package multi.type;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Mission4_for2 {
     public static void main(String[] args) throws IOException {
