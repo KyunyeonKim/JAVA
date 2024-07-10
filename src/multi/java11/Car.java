@@ -5,4 +5,6 @@ public class Car {
 
     public String price;
 
+    public void start() {
+    }
 }

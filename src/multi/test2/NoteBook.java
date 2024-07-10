@@ -1,6 +1,6 @@
 package multi.test2;
 
-public class NoteBook {
+public abstract class NoteBook {
 
     public int price;
     public double size;
@@ -26,4 +26,7 @@ public class NoteBook {
         System.out.println("NoteBook");
     }
 
+    public abstract int insert(int x, int y);
+
+    public abstract String update(String name);
 }

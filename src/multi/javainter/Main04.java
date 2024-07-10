@@ -1,12 +1,7 @@
-package multi.test;
+package multi.javainter;
 
 public class Main04 {
     public static void main(String[] args) {
-        System.out.println("hello");
-
-
-
-
-
+        BoardDAO dao = new BoardDAOimpl();
     }
 }
