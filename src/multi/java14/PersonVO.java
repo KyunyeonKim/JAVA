@@ -12,6 +12,10 @@ public class PersonVO {
         this.age = age;
     }
 
+    public PersonVO() {
+
+    }
+
     public int getNum() {
         return num;
     }
