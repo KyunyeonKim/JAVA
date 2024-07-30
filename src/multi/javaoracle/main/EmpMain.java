@@ -140,7 +140,6 @@ public class EmpMain {
                     System.out.println("Last Name: " + vo.getLastName());
                     System.out.println("Email: " + vo.getEmail());
                     System.out.println("Phone Number: " + vo.getPhoneNumber());
-                    System.out.println("Hire Date: " + vo.getHireDate());
                     System.out.println("Job ID: " + vo.getJobId());
                     System.out.println("Salary: " + vo.getSalary());
                     System.out.println("Commission Pct: " + vo.getCommissionPct());
@@ -161,7 +160,7 @@ public class EmpMain {
                                        ", Last Name: " + x.getLastName() +
                                        ", Email: " + x.getEmail() +
                                        ", Phone Number: " + x.getPhoneNumber() +
-                                       ", Hire Date: " + x.getHireDate() +
+
                                        ", Job ID: " + x.getJobId() +
                                        ", Salary: " + x.getSalary() +
                                        ", Commission Pct: " + x.getCommissionPct() +

@@ -34,7 +34,6 @@ public class EmpDAOImpl implements EmpDAO {
             pstmt.setString(3, vo.getLastName());
             pstmt.setString(4, vo.getEmail());
             pstmt.setString(5, vo.getPhoneNumber());
-            pstmt.setDate(6, vo.getHireDate());
             pstmt.setString(7, vo.getJobId());
             pstmt.setDouble(8, vo.getSalary());
             pstmt.setDouble(9, vo.getCommissionPct());
@@ -59,7 +58,6 @@ public class EmpDAOImpl implements EmpDAO {
             pstmt.setString(2, vo.getLastName());
             pstmt.setString(3, vo.getEmail());
             pstmt.setString(4, vo.getPhoneNumber());
-            pstmt.setDate(5, vo.getHireDate());
             pstmt.setString(6, vo.getJobId());
             pstmt.setDouble(7, vo.getSalary());
             pstmt.setDouble(8, vo.getCommissionPct());

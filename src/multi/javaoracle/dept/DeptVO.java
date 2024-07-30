@@ -42,9 +42,6 @@ public class DeptVO {
         this.depPhoneNumber = depPhoneNumber;
     }
 
-    public java.sql.Date getDepDate() {
-        return depDate;
-    }
 
     public void setDepDate(Date depDate) {
         this.depDate = depDate;

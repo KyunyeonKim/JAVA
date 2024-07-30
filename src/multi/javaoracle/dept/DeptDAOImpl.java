@@ -33,7 +33,6 @@ public class DeptDAOImpl implements DeptDAO {
             pstmt.setInt(2, vo.getSchNum());
             pstmt.setString(3, vo.getDepName());
             pstmt.setInt(4, vo.getDepPhoneNumber());
-            pstmt.setDate(5, vo.getDepDate());
             return pstmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -52,7 +51,6 @@ public class DeptDAOImpl implements DeptDAO {
             pstmt.setInt(1, vo.getSchNum());
             pstmt.setString(2, vo.getDepName());
             pstmt.setInt(3, vo.getDepPhoneNumber());
-            pstmt.setDate(4, vo.getDepDate());
             pstmt.setInt(5, vo.getDepNum());
             return pstmt.executeUpdate();
         } catch (SQLException e) {

@@ -103,7 +103,6 @@ public class DeptMain {
                     System.out.println("학교번호: " + vo.getSchNum());
                     System.out.println("부서명: " + vo.getDepName());
                     System.out.println("전화번호: " + vo.getDepPhoneNumber());
-                    System.out.println("생성일: " + vo.getDepDate());
                     System.out.println("selectOne succeeded...");
                 } else {
                     System.out.println("selectOne failed...");
@@ -113,13 +112,7 @@ public class DeptMain {
             } else if(menu.equals("5")){
                 List<DeptVO> list = dao.selectAll();
                 System.out.println("부서 목록:");
-                for(DeptVO x : list){
-                    System.out.println("부서번호: " + x.getDepNum() +
-                                       ", 학교번호: " + x.getSchNum() +
-                                       ", 부서명: " + x.getDepName() +
-                                       ", 전화번호: " + x.getDepPhoneNumber() +
-                                       ", 생성일: " + x.getDepDate());
-                }
+
                 System.out.println("=================");
 
             } else if(menu.equals("x")){

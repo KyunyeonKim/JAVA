@@ -55,9 +55,6 @@ public class EmpVO {
         this.phoneNumber = phoneNumber;
     }
 
-    public java.sql.Date getHireDate() {
-        return hireDate;
-    }
 
     public void setHireDate(Date hireDate) {
         this.hireDate = hireDate;
