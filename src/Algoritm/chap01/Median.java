@@ -21,6 +21,16 @@ public class Median {
     }
 
 
+    static int med4(int a, int b ,int c){
+
+        if((b >= a && c<=a) || (b <= a && c >= a ))
+            return a;
+        else if((a > b && c < b) || (a < b && c>b))
+            return  b;
+        return c;
+    }
+
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -33,5 +43,10 @@ public class Median {
         int c = sc.nextInt();
 
         System.out.println("중앙값은" + med3(a,b,c) + "입니다");
+
+
+        System.out.println("중앙값은" + med4(a,b,c) + "입니다");
+
+
     }
 }
