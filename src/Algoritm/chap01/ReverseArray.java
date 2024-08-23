@@ -19,6 +19,7 @@ public class ReverseArray {
         Scanner sc = new Scanner(System.in);
         int s= 5;
         int c = 5;
+        int d =5;
 
         System.out.println("요솟수: ");
         int num = sc.nextInt();
