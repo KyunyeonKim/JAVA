@@ -8,7 +8,6 @@ public class Multi99Table {
             for (int j = 2; j <=9 ; j++)
                 System.out.printf("%3d", i * j);
                 System.out.println();
-
         }
     }
 }

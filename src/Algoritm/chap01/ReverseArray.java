@@ -21,6 +21,7 @@ public class ReverseArray {
         int c = 5;
         int d =5;
 
+
         System.out.println("요솟수: ");
         int num = sc.nextInt();
 
