@@ -1,10 +1,7 @@
-package test.com;
+package multi.algoritm;
 
-import java.sql.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Main02 {
 

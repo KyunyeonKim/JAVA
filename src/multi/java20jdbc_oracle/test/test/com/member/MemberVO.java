@@ -7,6 +7,13 @@ public class MemberVO {
     private String name;
     private String tel;
 
+    public MemberVO(int i, String s, String s1, String s2, String s3) {
+    }
+
+    public MemberVO() {
+
+    }
+
     // Getter and Setter methods
     public int getNum() {
         return num;

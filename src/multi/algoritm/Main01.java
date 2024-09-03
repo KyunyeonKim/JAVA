@@ -1,4 +1,4 @@
-package test.com;
+package multi.algoritm;
 
 import java.util.Arrays;
 import java.util.List;
