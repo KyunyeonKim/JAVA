@@ -19,6 +19,7 @@ public class SeqSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        int a = 0;
         System.out.println("요솟수");
         int num = sc.nextInt();
         int[] x = new int[num];
