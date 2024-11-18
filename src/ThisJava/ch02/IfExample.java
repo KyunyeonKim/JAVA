@@ -1,4 +1,4 @@
-package ThisJava;
+package ThisJava.ch02;
 
 public class IfExample {
     public static void main(String[] args) {

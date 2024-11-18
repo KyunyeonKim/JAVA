@@ -1,6 +1,6 @@
-package ThisJava;
+package ThisJava.ch02;
 
-public class VariableInitializationExample {
+public class VariableUseExample {
 
     public static void main(String[] args){
         int hour = 3;
@@ -10,5 +10,4 @@ public class VariableInitializationExample {
         int totalMinute = (hour*60) + minute ;
         System.out.println("총" +  totalMinute + "분");
     }
-
 }
