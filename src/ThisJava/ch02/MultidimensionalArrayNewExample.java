@@ -57,7 +57,14 @@ public class MultidimensionalArrayNewExample {
         englishScores[1][1] = 93;
         englishScores[1][2] = 94;
         //전체 학생의 영어 평균 구하기
+        int totalStudent = 0;
         int totalEnglishSum = 0;
+        for (int i = 0; i <englishScores.length ; i++) {
+            totalStudent += englishScores[i].length;
+            for (int j = 0; j < englishScores[i].length ; j++) {
+                totalEnglishSum += englishScores[i][j];
+            }
+        }
 
     }
 }
