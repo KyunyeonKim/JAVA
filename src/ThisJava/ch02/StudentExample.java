@@ -9,5 +9,6 @@ public class StudentExample {
 
         Student s2 = new Student();
         System.out.println("s2변수가 또 다른 student 객체를 참조합니다.");
+        //
     }
 }
